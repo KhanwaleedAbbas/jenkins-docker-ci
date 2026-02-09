@@ -5,7 +5,7 @@ pipeline {
 	stage('Checkout'){
           steps{
 	    git branch: 'main',
-		credebtialId:'jenkins-docker'
+		credentialsId:'jenkins-docker'
 		url: 'https://github.com/KhanwaleedAbbas/jenkins-docker-ci.git'
 
 			}
